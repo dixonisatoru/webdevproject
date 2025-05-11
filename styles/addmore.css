@@ -1,0 +1,70 @@
+body{
+    background-color: #061731;
+    padding: 10px;
+}
+.banner{
+    background-color: #92BEFF;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+padding: 10px 20px;
+text-align: center;
+font-size: 30px;
+font-style: Georgia;
+color: #061731;
+}
+
+.sign-up{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.form input, form textarea{
+border: 1px solid #061731;
+padding: 10px 40px;
+border-radius: 10px;
+width: 70%;
+height: auto;
+}
+
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+    font-style: Georgia;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+.footer :hover{
+    color: #061731;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        margin: auto;
+    }
+    .container{
+        font-size: 20px;
+    }
+    .form input, form textarea{
+        width: 90%;
+    }
+    .form{
+        margin-right: 8%;
+        width: 90%;
+    }
+}
